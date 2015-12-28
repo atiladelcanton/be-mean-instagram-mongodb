@@ -1,0 +1,45 @@
+###MongoDB - Aula 02 - Exercício
+Autor: Átila Delcanton
+
+##Criando database
+```
+arampazo@arampazo:~$ mongo be-mean-pokemons
+MongoDB shell version: 3.0.8
+connecting to: be-mean-pokemons
+Mongo-Hacker 0.0.9
+Server has startup warnings: 
+2015-12-27T22:42:42.459-0200 I CONTROL  [initandlisten] 
+2015-12-27T22:42:42.459-0200 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2015-12-27T22:42:42.459-0200 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-12-27T22:42:42.459-0200 I CONTROL  [initandlisten] 
+2015-12-27T22:42:42.459-0200 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2015-12-27T22:42:42.459-0200 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2015-12-27T22:42:42.459-0200 I CONTROL  [initandlisten] 
+```
+
+##Listando databases
+```
+arampazo(mongod-3.0.8) be-mean-pokemons> show dbs
+local             → 0.078GB
+be-mean           → 0.078GB
+be-mean-instagram → 0.078GB
+
+```
+
+##Listando collections
+```
+```
+
+##Cadastro dos pokemons
+```
+```
+
+##Lista de todos os pokemons
+```
+##Query para buscar o pokemon
+```
+```
+
+##Atualizando a descrição do Pokemon
+```
+```
